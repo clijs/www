@@ -1,0 +1,228 @@
+/*
+  Primary - #5BBC5F
+  Text - rgba(0,0,0,0.5)
+*/
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body,html{
+  min-height: 100%;
+  margin: 0;
+  overflow: visible;
+  width: 100%;
+}
+
+body{
+  background-color: #eee;
+  color:rgba(0,0,0,0.5);
+  font:400 18px/27px 'Source Sans Pro', 'Helvetica Neue', Arial;
+  padding: 30px;
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin:0;
+  font-weight: 400;
+  padding:0;
+}
+
+pre, code{
+  margin:0;
+}
+code, pre.prettyprint {
+  border: 0 !important;
+  display:block;
+  padding: 0;
+  font-family: 'Source Code Pro', 'Courier New';
+  font-size: 13px;
+  line-height: 20px;
+  padding: 16px !important;
+}
+pre.prettyprint .pln {
+  color: rgba(0,0,0,0.7);
+}
+pre.prettyprint .kwd{
+  /*color: rgba(211, 71, 86, 1);*/
+  /*color: #5BBC5F;*/
+  color: #e96900;
+}
+pre.prettyprint .str{
+  color: #5BBC5F;
+}
+
+a{
+  color: #5BBC5F;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+
+main{
+  background: #fff;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 0 60px;
+  max-width: 1044px;
+  width: 100%;
+}
+main > header {
+  padding-bottom: 90px;
+  text-align:center;
+  /*border-bottom: 2px solid #eee;*/
+}
+main > header > h3{
+  color: #555;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 60px 0 0;
+}
+section{
+  overflow:visible;
+  padding: 0 40px;
+}
+section h4{
+  font-size: 18px;
+  line-height:18px;
+  font-weight: 300;
+  color: #444;
+  padding: 0 0 15px;
+  text-align: center
+}
+section h4 i {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.with-divider:after {
+  content: '';
+  display: block;
+  margin: 0 auto;
+  height: 3px;
+  background: #eee;
+  margin-top: 90px;
+  width: 120px;
+}
+
+.clear{
+  clear:both;
+}
+
+.section {
+  margin: 0 0 90px 0;
+  padding: 90px 0;
+}
+.section > h1{
+  /*color: #444;*/
+  font-weight: 300;
+  font-size: 34px;
+  line-height: 34px;
+  padding: 0 0 30px;
+}
+
+.logo{
+  width: 140px;
+}
+.logo-align{
+  padding: 20px;
+}
+
+.main-nav{
+  margin:60px 0 90px;
+}
+.main-nav a{
+  color: #7f8c8d;
+  line-height: 30px;
+  margin-right: 20px;
+  font-size: 13px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #fff;
+}
+.main-nav a:hover{
+  text-decoration: none;
+  border-bottom: 2px solid #5BBC5F;
+}
+
+.dot{
+  background: #eee;
+  border-radius: 6px;
+  height: 12px;
+  display:inline-block;
+  margin-right: 3px;
+  margin-top: -2px;
+  width: 12px;
+  vertical-align: middle;
+}
+.dot.close{
+  background: rgb(251, 71, 70);
+}
+.dot.minimize{
+  background: rgb(237, 216, 50);
+}
+.dot.maximize{
+  background: rgb(41, 195, 51);
+}
+.window {
+  border:1px solid #ddd;
+  border-radius: 5px;
+}
+.window-header{
+  height:30px;
+  line-height:30px;
+  font-size: 13px;
+  padding:0 0 0 10px;
+  text-align: center;
+  position: relative;
+}
+.window-header .dots{
+  position:absolute;
+  left: 10px;
+  top: 0;
+}
+.window-body{
+  height: 100%;
+  overflow: auto;
+  width: 100%;
+}
+
+.hljs{
+  background:#fff;
+  padding: 0;
+}
+
+.code-container{
+  float:left;
+  padding-right: 20px;
+  width: 50%;
+}
+.code-container .filename{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.terminal-container{
+  float:right;
+  padding-left: 20px;
+  width: 50%;
+}
+.terminal-container .window-header{
+  background: #eaeaea;
+  border-bottom: 1px solid #ddd;
+}
+.terminal-container .window-body code{
+  font-family: Monaco, 'Source Code Pro', 'Courier New';
+}
+
+.who-should-use{
+  background: #5BBC5F;
+  color: #fff;
+  margin: 90px 0;
+  text-align: center;
+}
+
+.tri-describe{
+  padding: 0 40px;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang=en>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>cli.js - A library to craft composable, modular, and testable command line applications with Node.js</title>
+
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="/styles/index.css">
+  <link rel="stylesheet" href="/styles/ionicons.min.css">
+
+  <main role="main">
+    <header class="with-divider">
+      <nav class="main-nav">
+        <a href="/get-started">Get Started</a>
+        <a href="/docs">Docs</a>
+        <a href="/examples">Examples</a>
+        <a href="/plugins">Plugins</a>
+        <a href="https://github.com/clijs" target="_blank">Github</a>
+      </nav>
+      <a href="/"><img class="logo" src="/images/logo_1.svg" alt="Cli.js - Create composable, modular command line applications" /></a>
+      <br>
+      <br>
+      <h3>A library to craft composable, modular, and testable command line applications</h3>
+    </header>
+
+    <section>
+
+      <div class="code-container">
+        <h4><i class="icon ion-code"></i> Craft It</h4>
+        <div class="window">
+          <div class="window-header">
+            <div class="dots">
+              <span class="dot close"></span>
+              <span class="dot minimize"></span>
+              <span class="dot maximize"></span>
+            </div>
+            <div class="filename">~/www/my-cli-app/cmd.js</div>
+          </div>
+          <div class="window-body">
+            <!-- <pre><code class="javascript insert-code prettyprint"></code></pre> -->
+            <pre class="prettyprint lang-js">var testCommand = command(
+  alias('test', 't'),
+  handler(function (context) {
+    console.log('Testing cli.js!')
+  })
+)
+
+var testFlag = flag(
+  alias('--test', '-h'),
+  handler(function (value, context) {
+    console.log('Flag value:', value)
+  })
+)
+
+run(
+  process.argv.slice(2),
+  app(
+    testCommand(),
+    testFlag()
+  )
+)</pre>
+          </div>
+        </div>
+      </div>
+
+      <div class="terminal-container">
+        <h4><i class="icon ion-monitor"></i>Execute It</h4>
+        <div class="window">
+          <div class="window-header">
+            <div class="dots">
+              <span class="dot close"></span>
+              <span class="dot minimize"></span>
+              <span class="dot maximize"></span>
+            </div>
+          </div>
+          <div class="window-body">
+            <pre><code>~/www/cli-foo $: _</code></pre>
+          </div>
+        </div>
+      </div>
+
+      <div class="clear"></div>
+    </section>
+
+    <section class="section who-should-use">
+      <h1>Who should use cli.js?</h1>
+      <p>Nulla vitae elit libero, a pharetra augue.</p>
+    </section>
+
+    <section class="tri-describe">
+      <div>
+        <h2><i class="icon ion-outlet"></i> Composable</h2>
+        <p>asdfasdfasdf</p>
+      </div>
+
+      <div>
+        <h2><i class="icon ion-grid"></i> Modular</h2>
+        <p>asdfasdfasdf</p>
+      </div>
+
+      <div>
+        <h2><i class="icon ion-erlenmeyer-flask"></i> Testable</h2>
+        <p>asdfasdfasdf</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+  <script src="/index.js"></script>
+</html>

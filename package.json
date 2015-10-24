@@ -1,0 +1,22 @@
+{
+  "name": "@cli/www",
+  "version": "1.0.0",
+  "description": "cli.js website and documentation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cli-js/www.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cli-js/www/issues"
+  },
+  "homepage": "https://github.com/cli-js/www#readme",
+  "devDependencies": {
+    "babel": "^5.8.23"
+  }
+}
