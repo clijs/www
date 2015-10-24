@@ -20,8 +20,10 @@ body,html{
 body{
   background-color: #eee;
   color:rgba(0,0,0,0.5);
-  font:300 18px/27px 'Source Sans Pro', 'Helvetica Neue', Arial;
+  font:300 16px/27px 'Source Sans Pro', 'Helvetica Neue', Arial;
   padding: 30px;
+  margin:0 auto;
+  max-width: 1044px;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -73,7 +75,6 @@ main{
   margin: 0 auto;
   overflow: auto;
   padding: 0 0 60px;
-  max-width: 1044px;
   width: 100%;
 }
 main > header {
@@ -148,7 +149,8 @@ section h4 i {
   text-transform: uppercase;
   border-bottom: 2px solid #fff;
 }
-.main-nav a:hover{
+.main-nav a:hover,
+.main-nav a.active{
   text-decoration: none;
   border-bottom: 2px solid #28b7d3;
 }
@@ -240,4 +242,62 @@ section h4 i {
 }
 .tri-describe h2{
   /*color:#e96900;*/
+}
+
+/** DOCS ***************************/
+
+html.docs {
+  height: 100%;
+}
+
+.docs body {
+  height: 100%;
+  padding : 0;
+  max-width: 100%;
+}
+
+.docs main {
+  height: 100%;
+  padding: 0;
+}
+
+.docs .content{
+  padding: 30px;
+  width: calc(100% - 300px);
+}
+
+.docs aside{
+  border-left: 1px solid #eee;
+  float: right;
+  height: 100%;
+  padding: 30px;
+  width: 300px;
+}
+
+.docs .logo {
+  vertical-align: top;
+  width: 40px;
+}
+.docs .content .logo-anchor {
+  display:inline;
+}
+.docs .logo-anchor + nav {
+  display: inline-block;
+  padding: 3px 0 0 30px;
+  vertical-align: top;
+}
+
+.docs .logo-anchor + nav a{
+  color: #7f8c8d;
+  line-height: 30px;
+  margin-right: 20px;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  border-bottom: 2px solid #fff;
+}
+.docs .logo-anchor + nav a:hover,
+.docs .logo-anchor + nav a.active{
+  text-decoration: none;
+  border-bottom: 2px solid #28b7d3;
 }

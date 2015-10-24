@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="157px" height="118px" viewBox="0 0 157 118" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#58E4D6" offset="0%"></stop>
+            <stop stop-color="#43ABF3" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="30.6747943%" cy="34.1572341%" fx="30.6747943%" fy="34.1572341%" r="402.738111%" id="radialGradient-2">
+            <stop stop-color="#58E4D6" offset="0%"></stop>
+            <stop stop-color="#43ABF3" offset="100%"></stop>
+        </radialGradient>
+        <linearGradient x1="92.744445%" y1="15.3196601%" x2="0%" y2="91.797186%" id="linearGradient-3">
+            <stop stop-color="#58E4D6" offset="0%"></stop>
+            <stop stop-color="#43ABF3" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="logo-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard" sketch:type="MSArtboardGroup">
+            <g id="&gt;_-+-c-+-li" sketch:type="MSLayerGroup" transform="translate(-0.200000, 0.000000)">
+                <path d="M28.652,69.986 L28.652,67.204 L36.01,62.42 L36.01,62.316 L28.652,57.532 L28.652,54.75 L38.532,61.302 L38.532,63.434 L28.652,69.986 Z M55.64,72.612 L55.64,74.952 L43.16,74.952 L43.16,72.612 L55.64,72.612 L55.64,72.612 Z" id="&gt;_" fill="url(#linearGradient-1)" sketch:type="MSShapeGroup"></path>
+                <path d="M122.208,117 L103.92,117 L103.92,0.648 L122.208,0.648 L122.208,117 L122.208,117 Z M156.048,117 L138.048,117 L138.048,26.568 L156.048,26.568 L156.048,117 L156.048,117 Z" id="li" fill="url(#radialGradient-2)" sketch:type="MSShapeGroup"></path>
+                <g id="c" transform="translate(0.000000, 26.000000)" fill="url(#linearGradient-3)" opacity="0.792210821" sketch:type="MSShapeGroup">
+                    <path d="M87.888,91 L18.624,91 C6.62394,91 0.624,85.00006 0.624,73 L0.624,18.712 C0.624,13.6239746 2.13598488,9.32801752 5.16,5.824 C8.18401512,2.31998248 12.6719702,0.568 18.624,0.568 L87.888,0.568 L87.888,18.712 L18.624,18.712 L18.624,73 L87.888,73 L87.888,91 Z"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
