@@ -7,7 +7,7 @@ function init () {
   var codeContainer = document.querySelector('.code-container .window')
   var terminalContainer = document.querySelector('.terminal-container .window')
 
-  terminalContainer.style.height = codeContainer.getBoundingClientRect().height + 'px'
+  terminalContainer.style.height = codeContainer.offsetHeight + 'px'
 
   // insertCode.innerText = [
   //   'function me () {',
