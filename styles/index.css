@@ -1,5 +1,5 @@
 /*
-  Primary - #28b7d3
+  Primary - #28a9d5
   Secondar - #e96900
   Text - rgba(0,0,0,0.5)
 */
@@ -20,13 +20,13 @@ body,html{
 body{
   background-color: #eee;
   color:rgba(0,0,0,0.5);
-  font:300 16px/27px 'Source Sans Pro', 'Helvetica Neue', Arial;
+  font:300 18px/27px 'Source Sans Pro', 'Helvetica Neue', Arial;
   padding: 30px;
   margin:0 auto;
-  max-width: 1044px;
+  max-width: 1200px;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5,h6, p{
   margin:0;
   font-weight: 300;
   padding:0;
@@ -48,12 +48,10 @@ pre.prettyprint .pln {
   color: rgba(0,0,0,0.5);
 }
 pre.prettyprint .kwd{
-  /*color: rgba(211, 71, 86, 1);*/
-  /*color: #28b7d3;*/
   color: #e96900;
 }
 pre.prettyprint .str{
-  color: #28b7d3;
+  color: #28a9d5;
 }
 pre.linenums li {
   background: #fff;
@@ -63,7 +61,7 @@ pre.linenums li {
 }
 
 a{
-  color: #28b7d3;
+  color: #28a9d5;
   text-decoration: none;
 }
 a:hover{
@@ -74,7 +72,7 @@ main{
   background: #fff;
   margin: 0 auto;
   overflow: auto;
-  padding: 0 0 60px;
+  padding: 0;
   width: 100%;
 }
 main > header {
@@ -130,6 +128,22 @@ section h4 i {
   padding: 0 0 30px;
 }
 
+.btn {
+  border: 1px solid #28a9d5;
+  border-radius: 30px;
+  display: inline-block;
+  height: 60px;
+  line-height: 58px;
+  padding: 0 30px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.btn:hover {
+  background: #28a9d5;
+  color: #fff;
+  text-decoration: none;
+}
+
 .logo{
   width: 140px;
 }
@@ -152,7 +166,7 @@ section h4 i {
 .main-nav a:hover,
 .main-nav a.active{
   text-decoration: none;
-  border-bottom: 2px solid #28b7d3;
+  border-bottom: 2px solid #28a9d5;
 }
 
 .dot{
@@ -226,22 +240,69 @@ section h4 i {
   font-family: Monaco, 'Source Code Pro', 'Courier New';
 }
 
-.who-should-use{
+.why{
+  padding-top: 90px;
+  text-align:center;
+  max-width: 700px;
+  margin:0 auto;
+}
+.why h1 {
+  text-align:center;
+  padding-bottom: 30px;
+}
+.why p {
+  padding-bottom: 90px;
+}
+.why .btn{
+  /*text-align:center;*/
+}
+
+.descriptions{
   background: -webkit-linear-gradient(60deg, #2993D9 10%, #26D0CE 90%); /* Chrome 10+, Saf5.1+ */
   background:    -moz-linear-gradient(60deg, #2993D9 10%, #26D0CE 90%); /* FF3.6+ */
   background:     -ms-linear-gradient(60deg, #2993D9 10%, #26D0CE 90%); /* IE10 */
   background:      -o-linear-gradient(60deg, #2993D9 10%, #26D0CE 90%); /* Opera 11.10+ */
   background:         linear-gradient(60deg, #2993D9 10%, #26D0CE 90%); /* W3C */
   color: #fff;
-  margin: 90px 0;
+  display: flex;
+  flex-direction: row;
+  margin: 90px 0 0;
   text-align: center;
 }
-
-.tri-describe{
-  padding: 0 40px;
+.descriptions > div{
+  flex: 1;
 }
-.tri-describe h2{
-  /*color:#e96900;*/
+.descriptions .icon {
+  font-size: 50px;
+  line-height: 50px;
+  display: inline-block;
+  padding: 0 0 30px;
+}
+.descriptions h2 {
+  padding: 0 0 30px;
+}
+.descriptions p {
+  text-align:left;
+  padding: 0 60px;
+}
+
+.get-started{
+  padding: 90px 0;
+  text-align:center;
+}
+.get-started > p {
+  padding-bottom: 30px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+main > footer {
+  /*color: ;*/
+  text-align: center;
+  font-size: 14px;
+  line-height: 21px;
+  /*font-weight: 400;*/
+  padding-bottom: 90px;
 }
 
 /** DOCS ***************************/
@@ -299,5 +360,5 @@ html.docs {
 .docs .logo-anchor + nav a:hover,
 .docs .logo-anchor + nav a.active{
   text-decoration: none;
-  border-bottom: 2px solid #28b7d3;
+  border-bottom: 2px solid #28a9d5;
 }

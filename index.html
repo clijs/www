@@ -3,7 +3,8 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>cli.js - A library to craft composable, modular, and testable command line applications with Node.js</title>
+  <title>cli.js - A library to craft modular, composable, and testable command line applications with Node.js</title>
+  <link rel="icon" type="image/png" href="/images/favicon.png">
 
   <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
@@ -23,10 +24,10 @@
       <a href="/"><img class="logo" src="/images/logo_7.svg" alt="Cli.js - Create composable, modular command line applications" /></a>
       <br>
       <br>
-      <h3>A library to craft composable, modular, and testable command line applications</h3>
+      <h3>A library to craft modular, composable, and testable command line applications</h3>
     </header>
 
-    <section>
+    <section class="with-divider">
 
       <div class="code-container">
         <h4><i class="icon ion-code"></i> Craft It</h4>
@@ -85,27 +86,46 @@ run(
       <div class="clear"></div>
     </section>
 
-    <section class="section who-should-use">
-      <h1>Who should use cli.js?</h1>
-      <p>Nulla vitae elit libero, a pharetra augue.</p>
+    <section class="why">
+      <h1>Why Cli.js? What's different?</h1>
+      <p>
+        There are already several <em>great</em> libraries on NPM that allow developers to create interactive and descriptive command line apps using Node.js (<a href="http://npmjs.com/package/yargs" target="_blank">Yargs</a>, <a href="http://npmjs.com/package/nash" target="_blank">Nash</a>, <a href="http://npmjs.com/package/commander" target="_blank">Commander</a>).
+        But, Cli.js's unique modular and composable api promotes small modules that just work, and work together. Everything is a function and everything composes.
+      </p>
+      <a href="/examples" class="btn">See Examples</a>
     </section>
 
-    <section class="tri-describe">
+    <section class="section descriptions">
       <div>
-        <h2><i class="icon ion-outlet"></i> Composable</h2>
-        <p>asdfasdfasdf</p>
+        <i class="icon ion-grid"></i>
+        <h2>Modular</h2>
+        <p>Everything is a function and in its own module. Use only what you need, reducing boot up time when executing large or small command line apps.</p>
       </div>
 
       <div>
-        <h2><i class="icon ion-grid"></i> Modular</h2>
-        <p>asdfasdfasdf</p>
+        <i class="icon ion-outlet"></i>
+        <h2>Composable</h2>
+        <!-- <p>Cli.js promotes creating smaller command line apps that compose together to create larger apps. Composability provides an obvious api, ensuring maintainability.</p> -->
+        <p>Write all your commands and flags as smaller, modular apps. Then compose them together to create your full command line app. Can you say plugins?! Woot!</p>
       </div>
 
       <div>
-        <h2><i class="icon ion-erlenmeyer-flask"></i> Testable</h2>
-        <p>asdfasdfasdf</p>
+        <i class="icon ion-erlenmeyer-flask"></i>
+        <h2>Testable</h2>
+        <p>Because modularity and pure functions are encouraged with Cli.js, it's easy to create isolated tests in order to boost confidence across your app releases.</p>
       </div>
     </section>
+
+    <section class="get-started with-divider">
+      <p>Getting that "I just need to write some code" feeling? Then, spend the next 2 minutes learning the api and writing your first composable and modular command line app!</p>
+      <a href="/get-started" class="btn">Get Started</a>
+    </section>
+
+    <footer>
+      Released under the <a href="http://opensource.org/licenses/MIT" target="_blank">MIT</a> license. <br>
+      Run by <a href="https://github.com/clijs" target="_blank">Contributors</a>.
+    </footer>
+
   </main>
 
   <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
